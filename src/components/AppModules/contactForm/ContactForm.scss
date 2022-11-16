@@ -1,0 +1,31 @@
+.text-yellow {
+  color: #ffa500;
+}
+@font-face {
+  font-family: "corda";
+  src: url(../../../assets/fonts/CordaW01Regular.ttf);
+}
+.font-corda {
+  font-family: "corda";
+  font-size: 20px;
+}
+
+button {
+  background: transparent;
+  border: 2px solid #ffa500;
+  font-size: 18px;
+  font-family: "corda";
+  transition: all linear 0.3s;
+  &:hover {
+    color: white;
+    background: #ffa500;
+    // border-color: 2px solid #fff;
+  }
+}
+#contact-form .name:focus {
+  box-shadow: none !important;
+}
+#contact-form{
+  background: url(../../../assets/bg1.png)no-repeat center;
+  background-size: cover;
+}

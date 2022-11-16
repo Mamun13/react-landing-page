@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "micrhoma";
+  src: url(../../../assets/fonts/Michroma-Regular.ttf);
+}
+@font-face {
+    font-family: "calibri";
+    src: url(../../../assets/fonts/Calibri-Regular.ttf);
+  }
+@font-face {
+  font-family: "corda";
+  src: url(../../../assets/fonts/CordaW01Regular.ttf);
+}
+@font-face {
+  font-family: "Noto sans";
+  src: url(../../../assets/fonts/NotoSans-Regular.ttf);
+}
+.font-Noto{
+  font-family: "Noto sans";
+}
+.font-corda{
+  font-family: "corda";
+}
+.font-calibri{
+  font-family: "calibri";
+}
+.font-micrhoma {
+  font-family: "micrhoma";
+}
+#footer ul {
+    margin-left: 250px;
+  .fnt-size {
+    font-size: 16px;
+    border-right: 2px solid #ffa500;
+  }
+}
+// social icon part
+ .multi-product{
+  // width: 270px;
+  height: 100px;
+  background: white;
+  >h5{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+}
+#copyright .dark{
+  background: #000;
+}
+  

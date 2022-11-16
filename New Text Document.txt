@@ -1,0 +1,3 @@
+Vertical slider : https://react-slick.neostack.com/docs/example/vertical-mode
+		  https://www.jqueryscript.net/animation/one-page-scroll-fsscroll.html
+		  https://www.jqueryscript.net/slider/Horizontal-Vertical-Image-Carousel-Slide-Fade-Animations-jqCarousel.html

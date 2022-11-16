@@ -1,0 +1,47 @@
+// element.style {
+//   max-height: 100px;
+//   width: 360px;
+//   flex-wrap: wrap;
+// }
+@font-face {
+  font-family: "Noto-Sans";
+  src: url(../../../assets/fonts/NotoSans-Black.ttf);
+}
+.font-noto {
+  font-family: "Noto Sans";
+}
+@font-face {
+  font-family: "Calibri";
+  src: url(../../../assets/fonts/Calibri-Regular.ttf);
+}
+.font-calibri {
+  font-family: "Calibri";
+}
+.left-line {
+  border-right: 2px solid #ffa500;
+}
+
+header Nav {
+  color: #555555;
+  .manu-item {
+    font-size: 18px;
+    padding-right: 3px;
+    transition: all linear 0.3s;
+    // line-height: 90px;
+    // padding-top: 45px;
+    // padding-bottom: 45px;
+    &:hover {
+      color: #ffa500;
+    }
+  }
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+.navbar-nav .show > .nav-link {
+  color: #ffa500;
+}
+.navbar-nav .product.active {
+  color: #ffa500;
+}
